@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#01161E</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#F4D35E</color>
+    <color name="SecondaryColor">#F8961E</color>
+    <color name="Gray">#988C8C</color>
+    <color name="LightGray">#E0E0E0</color>
+    <color name="BgColor">#FFFCF2</color>
+    <color name="BgCard">#affc41</color>
+    <color name="ColorGreen">#0CD15B</color>
+    <color name="ColorPink">#FFA0AC</color>
+    <color name="ColorRed">#FF3030</color>
+    <color name="ColorYellow">#FFD449</color>
+    <color name="ColorOrange">#FF9505</color>
+</resources>

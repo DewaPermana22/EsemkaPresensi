@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="325dp"
+    app:contentPadding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginHorizontal="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.example.dewapermana_smkn8jember.CircularProgressBar
+                android:id="@+id/progress_circular"
+                android:layout_width="99dp"
+                android:layout_height="99dp"
+                android:layout_marginTop="8dp"/>
+            <LinearLayout
+                android:layout_marginStart="20dp"
+                android:gravity="start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:fontFamily="@font/inter_semibold"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:id="@+id/nameTodo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Todo Task"/>
+                <TextView
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/inter_medium"
+                    android:id="@+id/jmlahTask"
+                    android:textSize="10sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 dari 0 Selesai"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tenggat : "
+                android:textColor="@color/SecondaryColor"
+                android:fontFamily="@font/poppins_semibold"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/deadlineTask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00 Des 2000"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"/>
+            <Button
+                android:id="@+id/toDetailTask"
+                android:layout_width="88dp"
+                android:layout_height="38dp"
+                android:background="@drawable/bg_buttons"
+                android:backgroundTint="@color/primaryColor"
+                android:text="Detail"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/white"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:show_in="navigation_view">
+
+        <group android:id="@+id/main_group">
+                <item android:id="@+id/profilUser"
+                    android:title="Profile"
+                    android:icon="@drawable/user_solid_1"/>
+
+                <item android:id="@+id/slipGaji"
+                    android:title="Slip Gaji"
+                    android:icon="@drawable/vector"/>
+
+                <item android:id="@+id/todo"
+                    android:title="Status Tugas"
+                    android:icon="@drawable/check_to_slot_solid_1"/>
+
+                <item android:id="@+id/kehadiran"
+                    android:title="Kehadiran"
+                    android:icon="@drawable/calendar_days_solid_1"/>
+        </group>
+</menu>

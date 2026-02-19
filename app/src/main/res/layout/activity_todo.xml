@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TodoActivity">
+        <LinearLayout
+            android:id="@+id/textViewee"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@color/primaryColor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_marginStart="30dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="17sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="PT. Shadewa Group"/>
+
+        </LinearLayout>
+
+        <ExpandableListView
+            android:divider="@android:color/transparent"
+            android:dividerHeight="12dp"
+            android:childDivider="@android:color/transparent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="45dp"
+            android:layout_below="@+id/textViewee"
+            android:id="@+id/expand_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/task_name_expand" />
+</RelativeLayout>

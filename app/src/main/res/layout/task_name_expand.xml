@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    app:contentPadding="12dp"
+    app:contentPaddingLeft="10dp"
+    app:contentPaddingRight="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="12dp"
+    app:cardBackgroundColor="@color/primaryColor"
+    android:background="@drawable/bg_header_tasking"
+    android:gravity="center_vertical">
+    <LinearLayout
+        android:layout_marginHorizontal="15dp"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clipboard_text_svgrepo_com"/>
+        <TextView
+            android:id="@+id/txtTaskName"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:text="Task Name"
+            android:padding="5dp"/>
+
+        <ImageView
+            android:id="@+id/transition_clip"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/arrow_up"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
